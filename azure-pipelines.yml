@@ -20,6 +20,6 @@ steps:
   displayName: 'Run a multi-line script'
 - task: PublishBuildArtifacts@1
   inputs:
-    PathtoPublish: 'Notebook/testDevops'
+    PathtoPublish: 'notebooks/Users/toslavik@microsoft.com/'
     ArtifactName: 'testScriptDevops'
     publishLocation: 'Container'
